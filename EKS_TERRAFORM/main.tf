@@ -1,6 +1,6 @@
 resource "aws_eks_cluster" "my_cluster" {
   name     = "my-cluster"
-  role_arn = "arn:aws:iam::730335478841:role/ec2-admin-access-2"  # Replace with your IAM role ARN
+  role_arn = "arn:aws:iam::471112501164:role/admin_full_access"  # Replace with your IAM role ARN
 
   vpc_config {
     subnet_ids         = ["subnet-05258f73075fc3d05", "subnet-093c04d40cd777b27"]  # Replace with your subnet IDs
