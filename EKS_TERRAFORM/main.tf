@@ -1,5 +1,5 @@
 resource "aws_eks_cluster" "my_cluster" {
-  name     = "my-cluster-2"
+  name     = "my-cluster"
   role_arn = "arn:aws:iam::471112501164:role/uberfull-access"  # Replace with your IAM role ARN
 
   vpc_config {
